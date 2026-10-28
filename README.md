@@ -1,31 +1,68 @@
-<img src="assets/header.svg" width="100%" alt="Shrutika Singh. New York University, Class of 2027. B.A. Honors, Computer Science and Biology, Minor in Mathematics. Machine learning research in LLM evaluation, post-training, and clinical AI.">
+# Shrutika Singh
 
-<p align="center">
-<a href="mailto:ss17775@nyu.edu">Email</a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/shrutika-singh-091297280/">LinkedIn</a> &nbsp;·&nbsp;
-<a href="https://scholar.google.com/citations?hl=en&user=3Ewre4YAAAAJ">Google Scholar</a> &nbsp;·&nbsp;
-<a href="https://shrusingh8.github.io/shrusingh.github.io/">Website</a>
+CS + Biology @ New York University  
+Interested in LLM evaluation, post-training, and clinical AI  
+
+---
+
+## Experience
+
+**NYU Langone Health (Oermann Lab)**
+
+- First author, *The pitfalls of multiple-choice questions in generative AI and medical education* (Scientific Reports, 2025): co-built pipelines converting **10,278** medical questions to free-response, showing a **39.43-point** average accuracy drop across GPT-4o, GPT-3.5, and Llama-3-70B.
+- Trained Llama models with GRPO reinforcement learning, raising neurosurgical exam accuracy from **23.7% to 46.4%** and outperforming SFT across 8 configurations (CNS 2025).
+- Built fine-tuning and data pipelines for CNS-Obsidian, a 34B vision-language model evaluated by 20 clinicians and used on **70 live consults** in a blinded trial.
+- Built LLM pipelines (GPT-4o, Claude) that generated **89,587** board-style questions, with expert human evaluation (Neurosurgical Practice, 2026).
+
+**Workada**
+
+- Evaluate how frontier AI models reason about scientific figures by writing multi-step quantitative questions and analyzing model failure modes.
+
+**NYU Hochwagen Lab**
+
+- Identified **14,878** genomic variants from nanopore-sequencing data to study genome stability.
+
+## Projects
+
+**[groundedqa](https://github.com/shrusingh8/groundedqa)**  
+- Built a RAG system over PubMed Central papers where every answer must cite its sources or refuse  
+- Built an eval harness for retrieval hit rate, hallucination (LLM-judge support), and refusal rates; FastAPI, Docker, CI  
+
+**[FreeMedQA](https://github.com/shrusingh8/FreeMedQA)**  
+- Open-source pipeline behind my first-author paper: LLM filtering, token-masking study, LLM-judge scoring  
+
+## Technical Skills
+
+**Languages**  
+Python, Java, R, SQL  
+
+**Machine Learning**  
+PyTorch, pandas, scikit-learn, LLM APIs, fine-tuning (SFT, GRPO), RAG, LLM-as-judge evaluation  
+
+**Infrastructure**  
+FastAPI, Docker, Git, GitHub Actions, Linux  
+
+<h3 align="left">Languages and Tools</h3>
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=python,java,r,pytorch,sklearn,fastapi,docker,git,github,githubactions,linux" />
 </p>
 
-<img src="assets/stats.svg" width="100%" alt="Selected result: a 39.43-point drop in LLM accuracy on medical exam questions once answer choices were removed. 3 peer-reviewed publications, 2x accuracy from GRPO, 70 live clinical consults, 3.88 GPA.">
+## Links
 
-### Research
+LinkedIn: https://www.linkedin.com/in/shrutika-singh-091297280/  
+Google Scholar: https://scholar.google.com/citations?hl=en&user=3Ewre4YAAAAJ  
+Website: https://shrusingh8.github.io/shrusingh.github.io/  
+Email: ss17775@nyu.edu  
+
+---
+
+## Stats
 
 <p>
-<a href="https://doi.org/10.1038/s41598-025-26036-7"><img src="assets/card-freemedqa.svg" width="32.5%" alt="FreeMedQA, Scientific Reports 2025, first author"></a>
-<a href="https://scholar.google.com/citations?hl=en&user=3Ewre4YAAAAJ"><img src="assets/card-grpo.svg" width="32.5%" alt="GRPO vs. SFT, CNS 2025, first author"></a>
-<a href="https://arxiv.org/abs/2502.19546"><img src="assets/card-obsidian.svg" width="32.5%" alt="CNS-Obsidian, arXiv 2025, co-author"></a>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shrusingh8&layout=compact" />
 </p>
-
-### Projects
 
 <p>
-<a href="https://github.com/shrusingh8/groundedqa"><img src="assets/card-groundedqa.svg" width="49.3%" alt="groundedqa"></a>
-<a href="https://github.com/shrusingh8/FreeMedQA"><img src="assets/card-freemedqa-code.svg" width="49.3%" alt="FreeMedQA"></a>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=shrusingh8&show_icons=true" />
 </p>
-
-### Technical Skills
-
-<img src="https://skillicons.dev/icons?i=py,java,r,pytorch,sklearn,fastapi,docker,git,githubactions,linux&theme=dark" alt="Python, Java, R, PyTorch, scikit-learn, FastAPI, Docker, Git, GitHub Actions, Linux">
-
-**Languages** Python, Java, R, SQL &nbsp;·&nbsp; **ML** PyTorch, pandas, scikit-learn, LLM APIs, fine-tuning (SFT, GRPO), RAG, LLM-as-judge evaluation &nbsp;·&nbsp; **Infrastructure** FastAPI, Docker, Git, GitHub Actions, Linux
