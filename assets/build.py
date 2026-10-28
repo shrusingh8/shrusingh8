@@ -141,12 +141,15 @@ write("stats.svg", svg(W, H, f"""{card(0, 0, 600, 376, big=True)}
 
 # ---- section headers -------------------------------------------------------
 def section(name, num, label, plain, italic):
-    """Writes a dark-theme and a light-theme version; the README picks one per viewer theme."""
-    W, H = 1200, 128
-    x2 = width("serif", plain, 56) - 0.01 * 56 * len(plain)
-    for suffix, ink, accent in [("-dark", INK, PINK2), ("", BG, DEEP)]:
-        write(name.replace(".svg", f"{suffix}.svg"), svg(W, H, f"""{t(2, 30, f"{num} — {label}", "sans-b", 14, PINK, 'letter-spacing=".14em"')}
-{t(0, 98, plain, "serif", 56, ink, 'letter-spacing="-.01em"')}{t(x2, 98, italic, "serif-i", 56, accent)}"""))
+    """A dark panel, so the title reads the same on GitHub's light and dark themes."""
+    W, H = 1200, 150
+    x2 = 36 + width("serif", plain, 56) - 0.01 * 56 * len(plain)
+    write(name, svg(W, H, f"""<g clip-path="url(#frame)"><rect width="{W}" height="{H}" fill="{BG}"/>
+<circle cx="1120" cy="-20" r="120" fill="{DEEP}" opacity=".55" filter="url(#blur)"/>
+<rect width="{W}" height="{H}" filter="url(#grain)"/></g>
+<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="28" fill="none" stroke="{LINE}"/>
+{t(38, 50, f"{num} — {label}", "sans-b", 14, PINK, 'letter-spacing=".14em"')}
+{t(36, 116, plain, "serif", 56, INK, 'letter-spacing="-.01em"')}{t(x2, 116, italic, "serif-i", 56, PINK2)}"""))
 
 
 section("sec-research.svg", "01", "RESEARCH", "Three papers, ", "one question.")
