@@ -1,32 +1,33 @@
-## Hi, I'm Shru 👋
+<a href="https://shrusingh8.github.io/shrusingh.github.io/"><img src="assets/header.svg" width="100%" alt="Hi, I'm Shru. I find where AI looks right for the wrong reasons."></a>
 
-CS & Biology @ **NYU '27**. I build and evaluate AI systems, and I care about one question:
-**does the model actually work, or does it just look like it does?**
+<img src="assets/stats.svg" width="100%" alt="39.43-point drop in LLM accuracy on medical exam questions once answer choices were removed. 3 peer-reviewed publications, 2x GRPO accuracy, 70 live clinical consults, 3.88 GPA.">
 
-- 🔬 ML research at **NYU Langone (Oermann Lab)**: LLM evaluation, post-training, clinical AI
-- 📄 First author, [*The pitfalls of multiple-choice questions in generative AI and medical education*](https://doi.org/10.1038/s41598-025-26036-7) (Scientific Reports, 2025)
-- 🧪 AI Reasoning Analyst @ **Workada**: evaluating frontier-model reasoning on scientific figures
-- 🎯 Looking for **new-grad AI/ML engineering** roles (May 2027)
+<br>
 
-### Research
+<img src="assets/sec-research.svg" width="100%" alt="01 Research">
 
-| Work | What I did | Result |
-|---|---|---|
-| **FreeMedQA** · [paper](https://doi.org/10.1038/s41598-025-26036-7) · [code](https://github.com/shrusingh8/FreeMedQA) | Co-built pipelines converting 10,278 medical MCQs to free-response, LLM-judge scoring, masking study | **39.43-pt** average accuracy drop across GPT-4o, GPT-3.5, Llama-3-70B; GPT-4o scored 37% with the question hidden |
-| **GRPO vs. SFT** · CNS 2025 | Trained Llama models with GRPO reinforcement learning across 8 configurations | Neurosurgery exam accuracy **23.7% → 46.4%** |
-| **CNS-Obsidian** · [arXiv](https://arxiv.org/abs/2502.19546) | Fine-tuning + data pipelines, human evaluation with 20 clinicians | 34B vision-language model used on **70 live consults** in a blinded trial |
+<p>
+<a href="https://doi.org/10.1038/s41598-025-26036-7"><img src="assets/card-freemedqa.svg" width="32.5%" alt="FreeMedQA, Scientific Reports 2025"></a>
+<a href="https://scholar.google.com/citations?hl=en&user=3Ewre4YAAAAJ"><img src="assets/card-grpo.svg" width="32.5%" alt="GRPO vs. SFT, CNS 2025"></a>
+<a href="https://arxiv.org/abs/2502.19546"><img src="assets/card-obsidian.svg" width="32.5%" alt="CNS-Obsidian, arXiv 2025"></a>
+</p>
 
-### Projects
+<img src="assets/sec-projects.svg" width="100%" alt="02 Projects">
 
-- **[groundedqa](https://github.com/shrusingh8/groundedqa)**: RAG over PubMed Central papers where every answer must cite its sources or refuse, plus an eval harness for retrieval, hallucination, and refusal rates. FastAPI · Docker · CI
-- **[FreeMedQA](https://github.com/shrusingh8/FreeMedQA)**: the open-source pipeline behind my first-author paper
+<p>
+<a href="https://github.com/shrusingh8/groundedqa"><img src="assets/card-groundedqa.svg" width="49.3%" alt="groundedqa"></a>
+<a href="https://github.com/shrusingh8/FreeMedQA"><img src="assets/card-freemedqa-code.svg" width="49.3%" alt="FreeMedQA code"></a>
+</p>
 
-### Tools
+<img src="assets/sec-toolkit.svg" width="100%" alt="03 Toolkit">
 
-[![Skills](https://skillicons.dev/icons?i=py,java,r,pytorch,sklearn,fastapi,docker,git,githubactions,linux)](https://skillicons.dev)
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,java,r,pytorch,sklearn,fastapi,docker,git,githubactions,linux&theme=dark" alt="Python, Java, R, PyTorch, scikit-learn, FastAPI, Docker, Git, GitHub Actions, Linux"></a>
 
-Python · Java · R · SQL · PyTorch · pandas · LLM APIs · RAG · LLM-as-judge evaluation · SFT & GRPO
+<br><br>
 
-### Links
+<img src="assets/sec-contact.svg" width="100%" alt="04 Contact">
 
-[LinkedIn](https://www.linkedin.com/in/shrutika-singh-091297280/) · [Website](https://shrusingh8.github.io/shrusingh.github.io/) · ss17775@nyu.edu
+<a href="mailto:ss17775@nyu.edu"><img src="assets/btn-email.svg" height="48" alt="Email me"></a>&nbsp;
+<a href="https://www.linkedin.com/in/shrutika-singh-091297280/"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn"></a>&nbsp;
+<a href="https://scholar.google.com/citations?hl=en&user=3Ewre4YAAAAJ"><img src="assets/btn-scholar.svg" height="48" alt="Google Scholar"></a>&nbsp;
+<a href="https://shrusingh8.github.io/shrusingh.github.io/"><img src="assets/btn-site.svg" height="48" alt="Website"></a>
