@@ -21,7 +21,7 @@ Interested in LLM evaluation, post-training, and clinical AI
 **NYU Hochwagen Lab**
 
 - Built an HPC genomics pipeline (Python, minimap2, samtools, LoFreq, SLURM) analyzing ribosomal DNA across **1,789** whole genomes in **598** parent–offspring trios from the 1000 Genomes Project.
-- Showed rDNA copy number is strongly heritable (slope **0.90**) and traced apparent new mutations to variant-calling artifacts by validating calls against raw reads.
+- Estimated rDNA copy-number heritability and traced apparent new mutations to variant-calling artifacts by validating calls against raw reads.
 
 ## Projects
 
